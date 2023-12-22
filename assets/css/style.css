@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+  font-family: "Spectral", serif;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+header nav ul li {
+  margin: 0 1.5em;
+  color: #242424;
+}
+header nav ul button {
+  border-width: 1px;
+  border-radius: 99em;
+  border-style: solid;
+  border-color: rgba(25, 25, 25, 1);
+  background-color: rgba(25, 25, 25, 1);
+  padding: 10px 1px;
+}
+header nav ul button li {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+#intestazione {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffc017;
+  font-family: "Spectral", serif;
+  border-bottom: 1px solid black;
+}
+/* #emme {
+  transform: scale(0.8);
+  position: absolute;
+  right: 0px;
+} */
+#title-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5em;
+  padding-left: 288px;
+  flex-grow: 1;
+}
+#title-content h1 {
+  font-size: 106px;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  margin-bottom: 35px;
+}
+#title-content p {
+  font-size: 24px;
+  color: #242424;
+  line-height: 24px;
+  margin-bottom: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  max-width: 450px;
+}
+
+#title-content button {
+  font-size: 20px;
+  width: 213px;
+  padding: 8px 20px;
+  background-color: rgba(25, 25, 25, 1);
+  color: white;
+  border-width: 1px;
+  border-radius: 99em;
+  border-style: solid;
+  border-color: rgba(25, 25, 25, 1);
+  font-family: "Roboto", sans-serif;
+}
+
+/* article trending */
+#article-1 {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #f2f2f2;
+}
+#article-1 span {
+  color: #f2f2f2;
+  font-size: 2em;
+  font-family: "Roboto", sans-serif;
+}
+h4 {
+  margin: 2em 0 1em 0;
+}
+.trending {
+  flex-direction: column;
+}
+.img-trending {
+  border-radius: 50%;
+  width: 23px;
+}
+#num1,
+#num2,
+#num3,
+#num4,
+#num5,
+#num6 {
+  margin-bottom: 2em;
+}
+.prima-riga {
+  display: flex;
+}
+#section2 {
+  display: flex;
+}
+#article-2 {
+  display: flex;
+  flex-direction: column;
+}
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1px solid lightgrey;
+}
+aside {
+  position: fixed;
+}
